@@ -1,0 +1,32 @@
+.footer-Parent{
+    display: grid;
+    grid-template-columns: 25% 45% 20%;
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
+
+}
+
+.footer{
+    background: #FDC886;
+    width: 100%;
+    padding: 8px 0;
+}
+.child-media{
+
+}
+.image-icons{
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+@media screen and (max-width:600px) {
+    .footer-Parent{
+        display: grid;
+        grid-template-columns: 40% 40% 10%;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+  }

@@ -1,0 +1,68 @@
+/* Navbar.css */
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black ;
+    margin-bottom: 50px;
+  }
+  
+  /* Style the logo */
+  .logo {
+    margin: 0;
+  }
+  .loginDivParent{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .Nav-Parent{
+    display: flex;
+    justify-content: space-between;
+  }
+  /* Style the navigation links */
+  .nav-links {
+    display: flex;
+    /* Adjust the spacing between links */
+    /* margin-left: -20px; */
+    justify-content: space-between;
+  }
+  .login-button{
+    border-radius: 40px;
+background: rgba(255, 221, 204, 0.53);
+  }
+  /* Style the individual navigation links */
+  .nav-link {
+    font-size: 12px; /* Adjust the font size */
+    color: black; 
+    font-weight: bolder;
+    /* Text color for links */
+  }
+  
+  /* Style link on hover or active state */
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #0d6efd; /* Text color for links on hover or focus */
+  }
+.custom-navbar{
+  padding: 10px 100px;
+}
+
+  .menu-svg,.account{
+    display: none;
+
+  }
+
+  @media screen and (max-width:600px) {
+    .menu-svg,.account{
+      display: block;
+    }
+    .Nav-Parent{
+      display: none;
+    }
+    .custom-navbar{
+      padding: 30px 10px; 
+    margin-bottom: 25px;
+    }
+  }
